@@ -76,7 +76,7 @@ header {
 header h1 {
   width: 100%;
   margin: 0px;
-  padding: 15px 0;
+  padding: 10px 0;
   /*padding: 30px 0;*/
   border-bottom: 3px solid #77a466;
 }
@@ -198,4 +198,99 @@ footer span {
   text-transform: lowercase;
   color: #45610e;
   font-size: 14px;
+}
+
+/****************************
+****************************
+****************************
+**************************
+******************************
+Media Sections for Tablet 
+****************************
+******************************
+*******************************
+****************************
+****************************
+****************************/
+
+@media all and (min-width: 768px) {
+  /* Tablet styles here */
+
+  .bottom-section .content-wrapper {
+    justify-content: space-evenly;
+  }
+
+  .section-one {
+    width: 29%;
+    /*width:26%;*/
+  }
+
+  .section-two {
+    width: 42%;
+    border-left: 5px solid #eee;
+    border-right: 5px solid #eee;
+    padding: 0 30px;
+    border-top: none;
+    border-bottom: none;
+    /*.section-two {
+      width: 40%;
+    
+    }*/
+  }
+
+  .section-three {
+    width: 29%;
+    /*width:26%;*/
+  }
+}
+/****************************
+****************************
+****************************
+**************************
+******************************
+Media Sections  Desktop
+****************************
+******************************
+*******************************
+****************************
+****************************
+****************************/
+
+@media all and (min-width: 1200px) {
+  /* Desktop styles here */
+
+  body {
+  
+		font-size: 1em;
+	}
+
+  header h1 {
+    width:30% ;
+    padding: 0;
+    border-bottom:none  ;
+    text-align:left5;
+  }
+  /*
+	header h1 {
+		width: 30%;
+		padding: 0;
+		border-bottom: none;
+		text-align: left;
+	}
+*/
+  header nav {
+    width: 21%;
+  }
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  header .content-wrapper {
+    justify-content: space between;
+    align-items: center;
+    padding: 20px 0;
+  }
+*3
 }
