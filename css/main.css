@@ -76,7 +76,11 @@ header {
 header h1 {
   width: 100%;
   margin: 0px;
+<<<<<<< HEAD
   padding: 10px 0;
+=======
+  padding: 15px 0;
+>>>>>>> 3c556080227365a681cb67db119cfd0ecab425da
   /*padding: 30px 0;*/
   border-bottom: 3px solid #77a466;
 }
