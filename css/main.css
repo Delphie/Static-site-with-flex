@@ -21,6 +21,9 @@ body {
   flex-flow: row wrap;
   /*margin: 0 auto;*/
   /*overflow: auto;*/
+  display: flex;
+  justify-content: left;
+  align-items: center;
 }
 
 h1,
@@ -92,6 +95,7 @@ header h1 span {
 header nav {
   /*padding: 46px 0;*/
   padding: 23px 0px;
+  margin: 0 auto auto 500px;
 }
 
 header nav ul {
