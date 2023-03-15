@@ -16,9 +16,9 @@ body {
 .content-wrapper {
   max-width: 1200px;
   width: 90%;
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*flex-flow: row wrap;*/
   /*margin: 0 auto;*/
   /*overflow: auto;*/
   /*display: flex;*/
